@@ -1,0 +1,52 @@
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.head {
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    nav {
+        display: flex;
+        gap: 10px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: Gilroy;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.41px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+    }
+
+    .user_data {
+       
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        h2 {
+            font-family: Gilroy;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.41px;
+            text-align: right;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+
+        }
+
+    }
+
+}
