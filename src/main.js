@@ -10,3 +10,12 @@ const container = document.querySelector('.container')
 console.log(container);
 
 reload(users,Header,container)
+
+
+import  Card  from './component/Card.js';
+import  Transactions  from './component/Transactions.js';
+
+Card();
+Transactions();
+
+
